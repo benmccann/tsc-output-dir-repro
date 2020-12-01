@@ -1,0 +1,7 @@
+{
+	"name": "subpackage",
+	"version": "0.0.1",
+	"devDependencies": {
+		"typescript": "^4.1.2"
+	}
+}

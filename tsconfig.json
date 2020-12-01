@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"lib": ["es2020"],
+		"outDir": ".",
+		// target node v8+ (https://node.green/)
+		// the only missing feature is Array.prototype.values
+		"target": "es2020",
+
+		"skipLibCheck": true,
+		"declaration": true,
+
+		"noEmitOnError": true,
+		"noErrorTruncation": true,
+
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"allowSyntheticDefaultImports": true,
+
+		"strict": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true
+	},
+	"exclude": ["node_modules"]
+}
